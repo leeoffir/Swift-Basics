@@ -14,12 +14,12 @@ var sample1: UInt8 = 0x3A
 var sample2: UInt8 = 58
 var heartRate: Int = 85
 var deposits: Double = 135002796
-var acceleration: Float=9.800
-var mass: Float=14.6
-var distance: Double=129.763001
-var lost: Bool=true
-var expensive: Bool=true
-var choice: Int=2
+var acceleration: Float = 9.800
+var mass: Float = 14.6
+var distance: Double = 129.763001
+var lost: Bool = true
+var expensive: Bool = true
+var choice: Int = 2
 let integral: Character = "\u{222B}"
 let greeting: String = "Hello"
 var name: String = "Karen"
@@ -33,7 +33,8 @@ else
     print("The samples are not equal")
 }
 
-if (heartRate >= 40) && (heartRate <= 80) {
+if (heartRate >= 40) && (heartRate <= 80)
+{
     print("Heart rate is normal." )
 }
 else
