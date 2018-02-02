@@ -24,6 +24,7 @@ let integral: Character = "\u{222B}"
 let greeting: String = "Hello"
 var name: String = "Karen"
 
+
 if sample1 == sample2
 {
     print("The samples are equal")
@@ -54,12 +55,14 @@ else
 var force = mass*acceleration
 
 print("force = \(force)")
+
 print("\(distance) is the distance.")
 
 if lost && expensive
 {
     print("I am really sorry! I will get the manager.")
 }
+    
 else if lost && !expensive
 {
     print("Here is coupon for 10% off.")
@@ -82,6 +85,7 @@ for i in 5 ... 10
 }
 
 var age: Int=0
+
 while age < 6
 {
     print("age =\(age)")
